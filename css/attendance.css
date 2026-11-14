@@ -1,0 +1,5 @@
+/* Attendance: a clear dark divider separates each date */
+.attendance-date-group{margin:14px 0 20px}
+.attendance-date-divider{display:flex;align-items:center;gap:12px;margin:18px 0 8px}
+.attendance-date-divider::after{content:"";height:3px;background:#28334f;flex:1;border-radius:3px}
+.attendance-date-divider span{background:#28334f;color:#fff;padding:7px 12px;border-radius:6px;font-size:11px;font-weight:800;letter-spacing:.3px}

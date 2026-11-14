@@ -1,0 +1,31 @@
+.quick-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:13px}
+.quick-card{border:1px solid var(--line);background:#fff;border-radius:14px;padding:18px 12px;text-align:center;cursor:pointer;transition:.2s;color:var(--ink)}
+.quick-card:hover{transform:translateY(-3px);border-color:#b9c7ff;box-shadow:0 8px 22px #3157d51a}
+.quick-icon{margin:0 auto 10px;width:43px;height:43px;border-radius:13px;background:var(--sky);display:grid;place-items:center;color:var(--blue);font-size:20px;font-weight:800}
+.quick-card b{display:block;font-size:13px}
+.quick-card small{display:block;margin-top:5px;color:var(--muted);font-size:10px}
+.quick-grid{grid-template-columns:repeat(3,1fr)}
+.quick-grid{grid-template-columns:repeat(2,1fr)}
+/* New login page and colorful dashboard theme */
+[hidden]{display:none!important}
+.dashboard-welcome h3{font:800 21px Manrope;color:#222e69;margin:0}
+.dashboard-welcome p:not(.eyebrow){color:#65708c;font-size:12px;margin:8px 0 0}
+.dashboard-quick{grid-template-columns:repeat(5,minmax(0,1fr))}
+.quick-card{min-height:175px;text-align:left;padding:19px;position:relative;overflow:hidden;border:0}
+.quick-card b{font:800 14px Manrope;color:#202945}
+.quick-card small{font-size:11px;line-height:1.5;min-height:32px}
+.quick-icon{margin:0 0 15px;width:47px;height:47px;border-radius:15px;font-size:22px}
+.quick-arrow{display:block;margin-top:15px;font-size:10px;font-weight:800;color:#596681}
+.quick-purple{background:linear-gradient(145deg,#f0eaff,#e5dcff)}
+.quick-purple .quick-icon{background:#d7c8ff;color:#6741c6}
+.quick-blue{background:linear-gradient(145deg,#e5f1ff,#d9e7ff)}
+.quick-blue .quick-icon{background:#c6dcff;color:#2862c8}
+.quick-green{background:linear-gradient(145deg,#e4fbf1,#d4f4e6)}
+.quick-green .quick-icon{background:#bdebd4;color:#16865b}
+.quick-orange{background:linear-gradient(145deg,#fff1dc,#ffe5c3)}
+.quick-orange .quick-icon{background:#ffdbad;color:#b66a13}
+.quick-pink{background:linear-gradient(145deg,#ffebf1,#ffdae6)}
+.quick-pink .quick-icon{background:#ffc9dc;color:#c23f77}
+.dashboard-quick{grid-template-columns:repeat(2,minmax(0,1fr))}
+.dashboard-quick{grid-template-columns:1fr 1fr}
+.quick-card{padding:14px;min-height:160px}

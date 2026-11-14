@@ -1,0 +1,18 @@
+.course-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(175px,1fr));gap:13px}
+.course-tile{border:1px solid var(--line);border-radius:13px;padding:16px;background:#fff;cursor:pointer;text-align:left;transition:.2s}
+.course-tile:hover{border-color:#aebfff;background:#f9faff}
+.course-code{display:inline-block;background:#edf1ff;color:var(--blue);font-size:10px;font-weight:800;border-radius:6px;padding:5px 8px}
+.course-tile h4{margin:12px 0 4px;font:800 16px Manrope}
+.course-tile p{margin:0;color:var(--muted);font-size:11px}
+.course-tile .count{margin-top:12px;font-size:11px;color:#596681}
+.course-tile:nth-child(5n+1){background:linear-gradient(145deg,#f4efff,#fff)}
+.course-tile:nth-child(5n+2){background:linear-gradient(145deg,#eaf4ff,#fff)}
+.course-tile:nth-child(5n+3){background:linear-gradient(145deg,#eafaf2,#fff)}
+.course-tile:nth-child(5n+4){background:linear-gradient(145deg,#fff4e7,#fff)}
+.course-tile:nth-child(5n){background:linear-gradient(145deg,#ffedf3,#fff)}
+/* Course card actions */
+.course-tile{padding:0;overflow:hidden;display:flex;flex-direction:column}
+.course-open{display:block;width:100%;border:0;background:transparent;text-align:left;padding:16px;cursor:pointer;color:inherit;font:inherit}
+.course-open:hover{background:#f9faff}
+.course-actions{display:flex;gap:7px;padding:0 14px 14px;margin-top:auto}
+.course-actions .btn{flex:1}
